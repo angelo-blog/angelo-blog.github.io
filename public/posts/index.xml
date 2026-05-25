@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on The Chopped Computer Scientist</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://angelo-blog.github.io/posts/</link>
     <description>Recent content in Posts on The Chopped Computer Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://angelo-blog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Proof: Sum of First n Integers</title>
-      <link>http://localhost:1313/posts/first-proof/</link>
+      <link>https://angelo-blog.github.io/posts/first-proof/</link>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first-proof/</guid>
+      <guid>https://angelo-blog.github.io/posts/first-proof/</guid>
       <description>&lt;p&gt;We prove:&lt;/p&gt;
 &lt;p&gt;$$
 1 + 2 + \cdots + n = \frac{n(n+1)}{2}
