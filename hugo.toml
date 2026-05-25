@@ -1,0 +1,16 @@
+baseURL = "https://angelo-blog.github.io/"
+languageCode = "en-us"
+title = "The Chopped Computer Scientist"
+theme = "PaperMod"
+
+[params]
+  math = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+    style = "github"
