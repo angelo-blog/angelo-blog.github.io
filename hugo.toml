@@ -5,6 +5,11 @@ theme = "PaperMod"
 
 [params]
   math = true
+  ShowToc = true
+  TocOpen = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
 
 [markup]
   [markup.goldmark.renderer]
@@ -14,3 +19,34 @@ theme = "PaperMod"
     noClasses = false
     lineNos = true
     style = "github"
+
+[menu]
+  [[menu.main]]
+    name = "Math"
+    url = "/math/"
+    weight = 1
+
+  [[menu.main]]
+    name = "CP"
+    url = "/cp/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Olympiad"
+    url = "/olympiad/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Low Level"
+    url = "/low-level-programming/"
+    weight = 6
