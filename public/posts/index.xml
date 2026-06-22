@@ -6,26 +6,6 @@
     <description>Recent content in Posts on The Chopped Computer Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://angelo-blog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Proof: Sum of First n Integers</title>
-      <link>https://angelo-blog.github.io/posts/first-proof/</link>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://angelo-blog.github.io/posts/first-proof/</guid>
-      <description>&lt;p&gt;We prove:&lt;/p&gt;
-&lt;p&gt;$$
-1 + 2 + \cdots + n = \frac{n(n+1)}{2}
-$$&lt;/p&gt;
-&lt;h3 id=&#34;proof&#34;&gt;Proof&lt;/h3&gt;
-&lt;p&gt;We use induction.&lt;/p&gt;
-&lt;p&gt;Base case: n = 1&lt;/p&gt;
-&lt;p&gt;$$
-1 = \frac{1 \cdot 2}{2}
-$$&lt;/p&gt;
-&lt;p&gt;Hence true.&lt;/p&gt;
-&lt;p&gt;Inductive step:
-Assume true for n, prove for n+1.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
