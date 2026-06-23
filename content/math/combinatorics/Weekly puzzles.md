@@ -14,6 +14,7 @@ draft: false
 Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :
 
 i)  for a given row/ column, all the number in said row/ column are all distinct. 
+
 ii) the number are symmetric along one of the main diagonals, more formally $a_{i,j} = a_{j,i}$ for all pairs $(i , j)$.
 
 Prove that no two cells in the main diagonal are equal i.e every pair cells $(i,i)$ ,  $(j,j)$ s.t $i \neq j$ we have that $a_{i,i} \neq a_{j,j}$. 
