@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Geometry | The Chopped Computer Scientist</title>
+<title>The Permutation Grid | The Chopped Computer Scientist</title>
 <meta name="keywords" content="">
-<meta name="description" content="Geometry - The Chopped Computer Scientist">
+<meta name="description" content="Weekly puzzles
+Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.
+Hopefully, the procrastination monster doesn&rsquo;t get me.
+Puzzle Statement
+Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/math/geometry/">
+<link rel="canonical" href="http://localhost:1313/math/combinatorics/permutation-grid/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +22,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/math/geometry/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/math/geometry/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/math/combinatorics/permutation-grid/">
 <noscript>
     <style>
         #theme-toggle,
@@ -88,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -150,23 +153,80 @@ document.addEventListener("DOMContentLoaded", function() {
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
             <a href="/math/">Mathematics</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/math/combinatorics/">Combinatorics</a>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
         <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
 </nav>
-  <h1>
-    Geometry
-  </h1>
-</header>
+    <h1 class="post-title entry-hint-parent">
+      The Permutation Grid
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-06-22 00:00:00 +0000 UTC'>June 22, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#weekly-puzzles" aria-label="Weekly puzzles">Weekly puzzles</a><ul>
+                    
+            <li>
+                <a href="#puzzle-statement" aria-label="Puzzle Statement">Puzzle Statement</a></li>
+            <li>
+                <a href="#solution" aria-label="Solution">Solution</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="weekly-puzzles">Weekly puzzles<a hidden class="anchor" aria-hidden="true" href="#weekly-puzzles">#</a></h2>
+<p><em>Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.</em>
+<em>Hopefully, the procrastination monster doesn&rsquo;t get me.</em></p>
+<h3 id="puzzle-statement">Puzzle Statement<a hidden class="anchor" aria-hidden="true" href="#puzzle-statement">#</a></h3>
+<p>Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :</p>
+<p>i)  for a given row/ column, all the number in said row/ column are all distinct.</p>
+<p>ii) the number are symmetric along one of the main diagonals, more formally $a_{i,j} = a_{j,i}$ for all pairs $(i , j)$.</p>
+<p>Prove that no two cells in the main diagonal are equal i.e every pair cells $(i,i)$ ,  $(j,j)$ s.t $i \neq j$ we have that $a_{i,i} \neq a_{j,j}$.</p>
+<p><em>I&rsquo;m too lazy to figure out how to hide solutions in drop downs, so <strong>STOP</strong> reading from this point and draw some examples</em></p>
+<h3 id="solution">Solution<a hidden class="anchor" aria-hidden="true" href="#solution">#</a></h3>
+<p><em><strong>Difficulty</strong></em> : Easy.</p>
+<p><em><strong>Hint</strong></em> : Try constructing a grid that satisfies the first two conditions but not the statement you need to prove for a $5 \times 5$ grid. What obstacle do you face ?</p>
+<p>The above hint is essentially the key insight you need to solve the problem. Like most <em>easy</em> puzzles all you need to do is just look at small cases to figure it out, and this puzzle is no different.</p>
+<p>Firstly, it&rsquo;s not hard to see that we will have $2025$ instances of each number from $1$ to $2025$ in the grid as a result of condition i). You can easily prove this by considering what happens when place a number in some cell $(r,c)$, we have that the number of rows and number of columns that you can place the said number  decreases by one for each placement  and since  there are a total of $2025$ rows and $2025$ columns, we have exactly 2025 instances of each number.</p>
+<p>Next, consider what condition two implies : the instances of a number can be grouped into <strong>PAIRS</strong>. However, we have $2025$ instances for each number which is odd therefore there is exactly one instance which will lack a pair and therefore this instance will have to lie in the main diagonal.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

@@ -10,7 +10,7 @@ draft: false
 *Hopefully, the procrastination monster doesn't get me.*
 
 ### Puzzle Statement
-
+ 
 Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :
 
 i)  for a given row/ column, all the number in said row/ column are all distinct. 

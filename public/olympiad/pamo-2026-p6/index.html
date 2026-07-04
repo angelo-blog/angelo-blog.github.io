@@ -5,11 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Geometry | The Chopped Computer Scientist</title>
+<title>PAMO 2026 P6 thought Process | The Chopped Computer Scientist</title>
 <meta name="keywords" content="">
-<meta name="description" content="Geometry - The Chopped Computer Scientist">
+<meta name="description" content="Introduction.
+This blog presents my thought process while solving Pan-African Math Olympiad (PAMO P6), at home ofc without contest pressure. The blog assumes you have tried the problem and read the solution or you are currently trying the problem and  looking for hints on how to complete it.
+You can find the problem statement and my solution here : Problem Statement
+Guessing the answer.
+My first guess was $M$ = 2  for all n, due to  the obvious parity invariance. Like most of my quick guesses it was way off. That said if looking at small cases it&rsquo;s very easy to guess the answer.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/math/geometry/">
+<link rel="canonical" href="http://localhost:1313/olympiad/pamo-2026-p6/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +22,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/math/geometry/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/math/geometry/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/olympiad/pamo-2026-p6/">
 <noscript>
     <style>
         #theme-toggle,
@@ -88,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -150,23 +153,94 @@ document.addEventListener("DOMContentLoaded", function() {
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-            <a href="/math/">Mathematics</a>
+            <a href="/olympiad/">Olympiad</a>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
         <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
 </nav>
-  <h1>
-    Geometry
-  </h1>
-</header>
+    <h1 class="post-title entry-hint-parent">
+      PAMO 2026 P6 thought Process
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-07-04 00:00:00 +0000 UTC'>July 4, 2026</span>&nbsp;·&nbsp;<span>4 min</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#introduction" aria-label="Introduction.">Introduction.</a><ul>
+                    
+            <li>
+                <a href="#guessing-the-answer" aria-label="Guessing the answer.">Guessing the answer.</a></li>
+            <li>
+                <a href="#the-so-called-invariant-principle-and-the-canonical-form" aria-label="The so called invariant principle and the canonical form.">The so called invariant principle and the canonical form.</a></li>
+            <li>
+                <a href="#the-so-called-extremal-principle" aria-label="The so called extremal principle.">The so called extremal principle.</a></li>
+            <li>
+                <a href="#the-construction" aria-label="The construction.">The construction.</a></li>
+            <li>
+                <a href="#the-actual-invariant" aria-label="The actual invariant.">The actual invariant.</a></li>
+            <li>
+                <a href="#the-algorithm-and-the-canonical" aria-label="The algorithm and the canonical">The algorithm and the canonical</a></li>
+            <li>
+                <a href="#take-aways" aria-label="Take aways">Take aways</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="introduction">Introduction.<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>This blog presents my thought process while solving Pan-African Math Olympiad (PAMO P6), at home ofc without contest pressure. The blog assumes you have tried the problem and read the solution or you are currently trying the problem and  looking for hints on how to complete it.
+You can find the problem statement and my solution here : <a href="https://artofproblemsolving.com/community/u1227139h3859166p38545892">Problem Statement</a></p>
+<h3 id="guessing-the-answer">Guessing the answer.<a hidden class="anchor" aria-hidden="true" href="#guessing-the-answer">#</a></h3>
+<p>My first guess was $M$ = 2  for all n, due to  the obvious parity invariance. Like most of my quick guesses it was way off. That said if looking at small cases it&rsquo;s very easy to guess the answer.</p>
+<p>if $n = 1$ : ${1, 0}$ and $M = 2$
+if $n = 2$ : ${11, 10, 01}$ and $M = 3$
+if $n = 3$ : ${111, 010, 101, 110}$ and $M = 4$</p>
+<p>It&rsquo;s very easy to guess the answer at this point. Obviously $M = n^{3} - 6n^{2} + 12n - 5$. Just kidding, $M = n + 1$ is quite intuitive. Personally I wasn&rsquo;t convinced and drew out $n = 4$ case just to be safe.</p>
+<h3 id="the-so-called-invariant-principle-and-the-canonical-form">The so called invariant principle and the canonical form.<a hidden class="anchor" aria-hidden="true" href="#the-so-called-invariant-principle-and-the-canonical-form">#</a></h3>
+<p>It&rsquo;s pretty natural to think about invariance when you have a combinatorics task that defines some operation. That said, It&rsquo;s a pretty common scene in codeforces contest to be given a task such that  you have two strings a and b, and you are required to check whether you can transform string a to string b with the some well defined operation. A very common trick to think about in such problems is can you find an invariant s.t strings which share said invariant can be transformed into one another while those which don&rsquo;t share said invariant can not. Additionally, you have to show that that any tow strings that share the said invariance can be transformed to one another. More precisely, since the operations are reversible it good to think about a standard form ( canonical form) that all strings can be transformed to. In turns out this is the exact strategy required to solve this P6.</p>
+<p>Example of such a problem is <a href="https://codeforces.com/contest/2210/problem/D">A simple RBS Problem</a> , and this is the exact problem I learned this trick from thanks to *<strong>Jay Leeds (Geothermal)</strong> <a href="https://youtu.be/-9SX8HpQhyI?t=2196">video solutions</a> of the contest. Highly advice you watch that section of the video and then come back.</p>
+<p>Therefore, It&rsquo;s not crazy to say that my ability to solve it was kinda of a fluke, the stars kinda of aligned in my favor.</p>
+<h3 id="the-so-called-extremal-principle">The so called extremal principle.<a hidden class="anchor" aria-hidden="true" href="#the-so-called-extremal-principle">#</a></h3>
+<p>Now with a strategy in mind I kept drawing examples i.e when n = 5. When drawing out examples I noticed that $101..$ and $010..$ can never change nor can any other strings be converted to these strings since operations are reversible. These to me looked like the $extremes$ in this problem and I inferred that the canonical forms of the sequence will probably be very similar to this.</p>
+<h3 id="the-construction">The construction.<a hidden class="anchor" aria-hidden="true" href="#the-construction">#</a></h3>
+<p>I got the idea that since I wanna prove that $M = n + 1$ then the invariant I should construct should probably have n + 1 values that it can obtain, so that each value should correspond to some group(equivalence class) that attains that value. Something that came to mind after that is that for any given string of size n it has exactly n prefixes. And this inspired the idea that I should probably look at the prefixes of $101..$ and $010$ since it seemed close enough to n + 1 that it might work.</p>
+<p>I drew out the prefix for $n = 9$ s.t I increase the number of ones at each step cause that seemed structurally important. When I drew out the prefixes I realized that there were exactly $10$ of them( I actually made a mistake when drawing the prefixes and had 9 , but I miscounted and got 10, again a very lucky solve).</p>
+<h3 id="the-actual-invariant">The actual invariant.<a hidden class="anchor" aria-hidden="true" href="#the-actual-invariant">#</a></h3>
+<p>After drawing the prefixes I began looking for patterns but couldn&rsquo;t find any. Then my mind went back to the trivial invariance that I thought of when reading the problems statement: if you take the sum of the sequence its parity is invariant. I came up with the idea that the invariance should have something to do with parity. After a bit of luck guessing I got the idea of the correct invariance.</p>
+<h3 id="the-algorithm-and-the-canonical">The algorithm and the canonical<a hidden class="anchor" aria-hidden="true" href="#the-algorithm-and-the-canonical">#</a></h3>
+<p>The movement operations was again a biproduct of competitive programming problems more precisely a video by <a href="https://www.youtube.com/@NealWuProgramming">Neal Wu</a> in which he solved and explains div3 problems. Unfortunately, I can&rsquo;t remember the exact problem. However, a problem that requires a very clever movement operations is the following <a href="https://codeforces.com/contest/2241/problem/D">An Alternating Way</a>. After figuring out the correct movement operation the algorithm is very straightforward and instructive.</p>
+<h3 id="take-aways">Take aways<a hidden class="anchor" aria-hidden="true" href="#take-aways">#</a></h3>
+<p>if you suck at combinatorics, pick up a keyboard, learn C++ and start CP. (You&rsquo;ll thank me later).</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
