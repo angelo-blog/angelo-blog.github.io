@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://angelo-blog.github.io/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/olympiad/</loc>
+    <loc>https://angelo-blog.github.io/olympiad/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/olympiad/pamo-2026-p6/</loc>
+    <loc>https://angelo-blog.github.io/olympiad/pamo-2026-p6/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/math/combinatorics/</loc>
+    <loc>https://angelo-blog.github.io/math/combinatorics/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/math/</loc>
+    <loc>https://angelo-blog.github.io/math/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/math/combinatorics/permutation-grid/</loc>
+    <loc>https://angelo-blog.github.io/math/combinatorics/permutation-grid/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/math/algebra/</loc>
+    <loc>https://angelo-blog.github.io/math/algebra/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://angelo-blog.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cp/</loc>
+    <loc>https://angelo-blog.github.io/cp/</loc>
   </url><url>
-    <loc>http://localhost:1313/math/geometry/</loc>
+    <loc>https://angelo-blog.github.io/math/geometry/</loc>
   </url><url>
-    <loc>http://localhost:1313/low-level-programming/</loc>
+    <loc>https://angelo-blog.github.io/low-level-programming/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://angelo-blog.github.io/notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/math/number-theory/</loc>
+    <loc>https://angelo-blog.github.io/math/number-theory/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://angelo-blog.github.io/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://angelo-blog.github.io/tags/</loc>
   </url>
 </urlset>
