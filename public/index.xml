@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on The Chopped Computer Scientist</title>
-    <link>https://angelo-blog.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on The Chopped Computer Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://angelo-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PAMO 2026 P6 thought Process</title>
-      <link>https://angelo-blog.github.io/olympiad/pamo-2026-p6/</link>
+      <link>http://localhost:1313/olympiad/pamo-2026-p6/</link>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://angelo-blog.github.io/olympiad/pamo-2026-p6/</guid>
+      <guid>http://localhost:1313/olympiad/pamo-2026-p6/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction.&lt;/h2&gt;
 &lt;p&gt;This blog presents my thought process while solving Pan-African Math Olympiad (PAMO P6), at home ofc without contest pressure. The blog assumes you have tried the problem and read the solution or you are currently trying the problem and  looking for hints on how to complete it.
 You can find the problem statement and my solution here : &lt;a href=&#34;https://artofproblemsolving.com/community/u1227139h3859166p38545892&#34;&gt;Problem Statement&lt;/a&gt;&lt;/p&gt;
@@ -21,9 +21,9 @@ You can find the problem statement and my solution here : &lt;a href=&#34;https:
     </item>
     <item>
       <title>The Permutation Grid</title>
-      <link>https://angelo-blog.github.io/math/combinatorics/permutation-grid/</link>
+      <link>http://localhost:1313/math/combinatorics/permutation-grid/</link>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://angelo-blog.github.io/math/combinatorics/permutation-grid/</guid>
+      <guid>http://localhost:1313/math/combinatorics/permutation-grid/</guid>
       <description>&lt;h2 id=&#34;weekly-puzzles&#34;&gt;Weekly puzzles&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.&lt;/em&gt;
 &lt;em&gt;Hopefully, the procrastination monster doesn&amp;rsquo;t get me.&lt;/em&gt;&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Olympiad on The Chopped Computer Scientist</title>
-    <link>https://angelo-blog.github.io/olympiad/</link>
+    <link>http://localhost:1313/olympiad/</link>
     <description>Recent content in Olympiad on The Chopped Computer Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://angelo-blog.github.io/olympiad/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/olympiad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PAMO 2026 P6 thought Process</title>
-      <link>https://angelo-blog.github.io/olympiad/pamo-2026-p6/</link>
+      <link>http://localhost:1313/olympiad/pamo-2026-p6/</link>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://angelo-blog.github.io/olympiad/pamo-2026-p6/</guid>
+      <guid>http://localhost:1313/olympiad/pamo-2026-p6/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction.&lt;/h2&gt;
 &lt;p&gt;This blog presents my thought process while solving Pan-African Math Olympiad (PAMO P6), at home ofc without contest pressure. The blog assumes you have tried the problem and read the solution or you are currently trying the problem and  looking for hints on how to complete it.
 You can find the problem statement and my solution here : &lt;a href=&#34;https://artofproblemsolving.com/community/u1227139h3859166p38545892&#34;&gt;Problem Statement&lt;/a&gt;&lt;/p&gt;
