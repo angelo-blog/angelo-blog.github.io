@@ -11,6 +11,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
 
+  
 [markup]
   [markup.goldmark.renderer]
     unsafe = true

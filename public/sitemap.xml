@@ -28,6 +28,8 @@
   </url><url>
     <loc>http://localhost:1313/math/geometry/</loc>
   </url><url>
+    <loc>http://localhost:1313/_index_backup/</loc>
+  </url><url>
     <loc>http://localhost:1313/low-level-programming/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
