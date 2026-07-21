@@ -68,25 +68,21 @@ My first guess was $M$ = 2  for all n, due to  the obvious parity invariance. Li
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+</script><script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    packages: {'[+]': ['ams']}
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-onload="renderMathInElement(document.body);"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  renderMathInElement(document.body, {
-    delimiters: [
-      {left: "$$", right: "$$", display: true},
-      {left: "$", right: "$", display: false}
-    ]
-  });
-});
+<script async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
 

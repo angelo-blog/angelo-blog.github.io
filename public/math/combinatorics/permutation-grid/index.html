@@ -10,6 +10,7 @@
 <meta name="description" content="Weekly puzzles
 Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.
 Hopefully, the procrastination monster doesn&rsquo;t get me.
+Puzzle 1
 Puzzle Statement
 Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :">
 <meta name="author" content="">
@@ -68,25 +69,21 @@ Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from to
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+</script><script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    packages: {'[+]': ['ams']}
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-onload="renderMathInElement(document.body);"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  renderMathInElement(document.body, {
-    delimiters: [
-      {left: "$$", right: "$$", display: true},
-      {left: "$", right: "$", display: false}
-    ]
-  });
-});
+<script async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
 
@@ -192,6 +189,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <a href="#weekly-puzzles" aria-label="Weekly puzzles">Weekly puzzles</a><ul>
                     
             <li>
+                <a href="#puzzle-1" aria-label="Puzzle 1">Puzzle 1</a></li>
+            <li>
                 <a href="#puzzle-statement" aria-label="Puzzle Statement">Puzzle Statement</a></li>
             <li>
                 <a href="#solution" aria-label="Solution">Solution</a>
@@ -205,6 +204,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="post-content md-content"><h2 id="weekly-puzzles">Weekly puzzles<a hidden class="anchor" aria-hidden="true" href="#weekly-puzzles">#</a></h2>
 <p><em>Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.</em>
 <em>Hopefully, the procrastination monster doesn&rsquo;t get me.</em></p>
+<h3 id="puzzle-1">Puzzle 1<a hidden class="anchor" aria-hidden="true" href="#puzzle-1">#</a></h3>
 <h3 id="puzzle-statement">Puzzle Statement<a hidden class="anchor" aria-hidden="true" href="#puzzle-statement">#</a></h3>
 <p>Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :</p>
 <p>i)  for a given row/ column, all the number in said row/ column are all distinct.</p>
@@ -224,6 +224,16 @@ document.addEventListener("DOMContentLoaded", function() {
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/math/combinatorics/3-man/">
+    <span class="title">« Prev</span>
+    <span>3-man</span>
+  </a>
+  <a class="next" href="http://localhost:1313/math/combinatorics/test/">
+    <span class="title">Next »</span>
+    <span></span>
+  </a>
+</nav>
 
   </footer>
 </article>

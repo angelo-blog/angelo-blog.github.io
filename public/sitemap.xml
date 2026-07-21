@@ -2,8 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/math/combinatorics/3-man/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/combinatorics/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/olympiad/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
@@ -11,14 +20,10 @@
     <loc>http://localhost:1313/olympiad/pamo-2026-p6/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/math/combinatorics/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/math/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/math/combinatorics/permutation-grid/</loc>
     <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/math/combinatorics/test/</loc>
   </url><url>
     <loc>http://localhost:1313/math/algebra/</loc>
   </url><url>

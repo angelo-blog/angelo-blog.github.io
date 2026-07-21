@@ -65,25 +65,21 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+</script><script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']],
+    packages: {'[+]': ['ams']}
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-
-<script defer
-src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-onload="renderMathInElement(document.body);"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  renderMathInElement(document.body, {
-    delimiters: [
-      {left: "$$", right: "$$", display: true},
-      {left: "$", right: "$", display: false}
-    ]
-  });
-});
+<script async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
 
@@ -173,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
   <footer class="entry-footer">
 
-<span title='2026-06-22 00:00:00 +0000 UTC'>June 22, 2026</span>&nbsp;·&nbsp;<span>0 min</span></footer>
+<span title='2026-07-21 00:00:00 +0000 UTC'>July 21, 2026</span>&nbsp;·&nbsp;<span>0 min</span></footer>
   <a class="entry-link" aria-label="post link to Combinatorics" href="http://localhost:1313/math/combinatorics/"></a>
 </article>
 

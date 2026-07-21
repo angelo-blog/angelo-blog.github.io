@@ -5,11 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Number Theory | The Chopped Computer Scientist</title>
+<title>3-man | The Chopped Computer Scientist</title>
 <meta name="keywords" content="">
-<meta name="description" content="Number Theory - The Chopped Computer Scientist">
+<meta name="description" content="Puzzle 2
+Puzzle Statement
+There are $100$ soldiers in a detachment, and every evening three of them are on duty. Can it happen that, after a certain period of time, each soldier has shared duty with every other soldier exactly once?
+Solution
+Difficulty: Easy.
+Hint: Parity.
+Comment: This took me embarrassingly long to figure out. It&rsquo;s a cute problem, though.
+My first $10$-second thought was that for every $n \equiv 1 \pmod{3}$, it would be impossible for the condition to be satisfied. This hypothesis seemed convincing since the case $n = 4$ is trivially true.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/math/number-theory/">
+<link rel="canonical" href="http://localhost:1313/math/combinatorics/3-man/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +25,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/math/number-theory/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/math/number-theory/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/math/combinatorics/3-man/">
 <noscript>
     <style>
         #theme-toggle,
@@ -84,7 +90,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 
 
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -146,23 +152,93 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
             <a href="/math/">Mathematics</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/math/combinatorics/">Combinatorics</a>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
         <polyline points="9 18 15 12 9 6"></polyline>
     </svg>
 </nav>
-  <h1>
-    Number Theory
-  </h1>
-</header>
+    <h1 class="post-title entry-hint-parent">
+      3-man
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-07-21 00:00:00 +0000 UTC'>July 21, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#puzzle-2" aria-label="Puzzle 2">Puzzle 2</a><ul>
+                    
+            <li>
+                <a href="#puzzle-statement" aria-label="Puzzle Statement">Puzzle Statement</a></li>
+            <li>
+                <a href="#solution" aria-label="Solution">Solution</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h3 id="puzzle-2">Puzzle 2<a hidden class="anchor" aria-hidden="true" href="#puzzle-2">#</a></h3>
+<h4 id="puzzle-statement">Puzzle Statement<a hidden class="anchor" aria-hidden="true" href="#puzzle-statement">#</a></h4>
+<p>There are $100$ soldiers in a detachment, and every evening three of them are on duty. Can it happen that, after a certain period of time, each soldier has shared duty with every other soldier exactly once?</p>
+<h4 id="solution">Solution<a hidden class="anchor" aria-hidden="true" href="#solution">#</a></h4>
+<p><strong>Difficulty:</strong> Easy.<br>
+<strong>Hint:</strong> Parity.</p>
+<p><strong>Comment:</strong> This took me embarrassingly long to figure out. It&rsquo;s a cute problem, though.</p>
+<p>My first $10$-second thought was that for every $n \equiv 1 \pmod{3}$, it would be impossible for the condition to be satisfied. This hypothesis seemed convincing since the case $n = 4$ is trivially true.</p>
+<p>However, when I tried proving it, it came as no surprise that my efforts were unfruitful. I explored the case $n = 7$ to see what restrictions I would encounter that would prevent such a construction. To my surprise, a construction for $n = 7$ was possible, and  it convinced me divisibility by $3$ was a red herring, with the real obstruction being <strong>Parity</strong>.</p>
+<p>$$
+\begin{matrix}
+{1,2,3}\\
+{1,4,5}\\
+{1,6,7}\\
+{2,4,6}\\
+{2,5,7}\\
+{3,4,7}\\
+{3,5,6}
+\end{matrix}
+$$</p>
+<p>At this point, I asked a critical question that I believe finishes the problem: why does it work for $n = 7$ but not for $n = 4$?</p>
+<p>If you shift your perspective and consider an individual soldier $a$, you realize that for the condition to be satisfied, $a$ must be the third member in tripples formed by adding $a$ to  all the possible pairs that can be formed with the remaining $n - 1$ soldiers i.e if $a$ is excluded. Consequently, if $n \equiv 0 \pmod{2}$, then $n-1$ is odd, so it is impossible to partition those soldiers into pairs. Therefore, no such construction can exist.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/math/combinatorics/permutation-grid/">
+    <span class="title">Next »</span>
+    <span>The Permutation Grid</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

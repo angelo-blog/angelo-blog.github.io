@@ -6,8 +6,22 @@
     <description>Recent content in Home on The Chopped Computer Scientist</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3-man</title>
+      <link>http://localhost:1313/math/combinatorics/3-man/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/math/combinatorics/3-man/</guid>
+      <description>&lt;h3 id=&#34;puzzle-2&#34;&gt;Puzzle 2&lt;/h3&gt;
+&lt;h4 id=&#34;puzzle-statement&#34;&gt;Puzzle Statement&lt;/h4&gt;
+&lt;p&gt;There are $100$ soldiers in a detachment, and every evening three of them are on duty. Can it happen that, after a certain period of time, each soldier has shared duty with every other soldier exactly once?&lt;/p&gt;
+&lt;h4 id=&#34;solution&#34;&gt;Solution&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Difficulty:&lt;/strong&gt; Easy.&lt;br&gt;
+&lt;strong&gt;Hint:&lt;/strong&gt; Parity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comment:&lt;/strong&gt; This took me embarrassingly long to figure out. It&amp;rsquo;s a cute problem, though.&lt;/p&gt;
+&lt;p&gt;My first $10$-second thought was that for every $n \equiv 1 \pmod{3}$, it would be impossible for the condition to be satisfied. This hypothesis seemed convincing since the case $n = 4$ is trivially true.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PAMO 2026 P6 thought Process</title>
       <link>http://localhost:1313/olympiad/pamo-2026-p6/</link>
@@ -27,8 +41,22 @@ You can find the problem statement and my solution here : &lt;a href=&#34;https:
       <description>&lt;h2 id=&#34;weekly-puzzles&#34;&gt;Weekly puzzles&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Hurray! this is the first in a series of math puzzles that I will writing about in the course of the next few months before I go to college.&lt;/em&gt;
 &lt;em&gt;Hopefully, the procrastination monster doesn&amp;rsquo;t get me.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;puzzle-1&#34;&gt;Puzzle 1&lt;/h3&gt;
 &lt;h3 id=&#34;puzzle-statement&#34;&gt;Puzzle Statement&lt;/h3&gt;
 &lt;p&gt;Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/math/combinatorics/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/math/combinatorics/test/</guid>
+      <description>&lt;p&gt;$$
+\begin{matrix}
+1\\
+2\\
+3
+\end{matrix}
+$$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home</title>
