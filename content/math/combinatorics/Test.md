@@ -1,7 +1,0 @@
-$$
-\begin{matrix}
-1\\\\
-2\\\\
-3
-\end{matrix}
-$$

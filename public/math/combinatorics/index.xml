@@ -34,18 +34,5 @@
 &lt;h3 id=&#34;puzzle-statement&#34;&gt;Puzzle Statement&lt;/h3&gt;
 &lt;p&gt;Consider a $2025 \times 2025$ grid with the rows numbered  $1$ to $2025$ from top to bottom and columns numbered 1 to 2025 from left to right. Each cell of the grid is assigned a number between 1 and 2025 such that the following two conditions hold :&lt;/p&gt;</description>
     </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/math/combinatorics/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/math/combinatorics/test/</guid>
-      <description>&lt;p&gt;$$
-\begin{matrix}
-1\\
-2\\
-3
-\end{matrix}
-$$&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
